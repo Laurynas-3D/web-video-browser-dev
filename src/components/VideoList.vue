@@ -1,5 +1,5 @@
 <template>
-    <div class="col-md-4">
+    <div class="mt-4 col-md-4">
         <ul class="list-group">
             <VideoListItem 
             v-for="video in videos" 
