@@ -1,6 +1,8 @@
 <template>
     <li class="list-group-item media" @click="onVideoSelect">
+        <!-- disabled to save youtube API quota -->
         <img class="mr-3" :src="thumbnailUrl" />
+        
         <div class="media-body">
             {{ video.snippet.title }}
         </div>
